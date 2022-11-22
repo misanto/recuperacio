@@ -235,8 +235,6 @@ border-radius: 16px;
 
 h2{
     width: 149px;
-    height: 51px;
-    
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -280,6 +278,10 @@ body{
 @media screen and (max-width: 575px) {
   .text h4 {
     font-size: 20px;
+  }
+  .flex{
+    flex-wrap: wrap;
+    margin: 10px;
   }
 }
 
