@@ -253,5 +253,34 @@ h2{
 }
 
 body{
-    background-image: url(assets/imgs/moon.jpg);
+  background-image: url(../assets/imgs/fondo.jpg);
+  
 }
+
+/*responsive*/
+@media screen and (max-width: 1200px) {
+  .text h4 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .text h4 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text h4 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .text h4 {
+    font-size: 20px;
+  }
+}
+
+
+/*querys*/
